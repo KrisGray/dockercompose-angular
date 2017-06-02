@@ -15,8 +15,8 @@ docker-compose up --build
 docker exec -it dockercomposeangular_webserver_1 bash
 cd <angular project>
 npm install;
-
-DO STUFF
-
-exit
+ng --version
+ng serve
 ```
+
+To check out the working project go to http://localhost:4200
