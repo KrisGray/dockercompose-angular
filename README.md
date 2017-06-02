@@ -11,7 +11,7 @@ cd ..
 docker-compose up --build
 ```
 ```bash
-docker exec -it angular_webserver_1 bash
+docker exec -it dockercomposeangular_webserver_1 bash
 cd <angular project>
 npm install;
 exit
