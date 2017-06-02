@@ -1,0 +1,12 @@
+---
+version: '2'
+services:
+  webserver:
+    build: server/.
+    ports:
+      - "8000:3001"
+      - "4200:4200"
+    volumes:
+      - ./server/:/var/www
+    hostname: angular.docker
+    command: bash -c "service httpd start && tail -f /etc/httpd/logs/error_log"
