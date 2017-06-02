@@ -3,10 +3,11 @@
 Docker development environment for angular development
 
 Run the following to set up:
+Use [angular-hero-tutorial](https://github.com/KrisGray/angular-hero-tutorial) as an example project below
 ```bash
 git clone https://github.com/KrisGray/dockercompose-angular.git;
 cd dockercompose-angular/server;
-git clone https://github.com/KrisGray/<angular project>.git;
+git clone https://github.com/<angular project>.git;
 cd ..
 docker-compose up --build
 ```
