@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!build.sh
+!conf.d/angular.conf
+!Dockerfile
+!html/.gitignore
+
