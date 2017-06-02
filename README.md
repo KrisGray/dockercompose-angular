@@ -16,7 +16,3 @@ cd <angular project>
 npm install;
 exit
 ```
-
-```bash
-docker exec -it angular2_webserver_1 bash
-```
