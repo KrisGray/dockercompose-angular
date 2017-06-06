@@ -5,6 +5,7 @@ services:
     build: server/.
     ports:
       - "8000:3001"
+      - "8001:3002"
       - "4200:4200"
     volumes:
       - ./server/:/var/www
