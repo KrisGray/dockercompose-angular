@@ -7,7 +7,7 @@ Use [angular-hero-tutorial](https://github.com/KrisGray/angular-hero-tutorial) a
 ```bash
 git clone https://github.com/KrisGray/dockercompose-angular.git;
 cd dockercompose-angular/server;
-git clone https://github.com/<angular project>.git;
+git clone https://github.com/<angular project>.git devel;
 cd ..
 docker-compose up --build
 ```
