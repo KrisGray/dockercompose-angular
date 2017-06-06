@@ -4,7 +4,7 @@
 # But not these files...
 !.gitignore
 !build.sh
-!conf.d/angular.conf
+!conf.d/devel.conf
 !Dockerfile
 !html/.gitignore
 
